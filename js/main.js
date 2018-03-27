@@ -183,7 +183,10 @@
             loop: true,
             margin: 40,
             nav: true,
-            dots: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: false,
             navText: [
                 "<i class='ti-arrow-left owl-direction'></i>",
                 "<i class='ti-arrow-right owl-direction'></i>"
@@ -208,7 +211,7 @@
             loop: true,
             margin: 20,
             nav: true,
-            dots: true,
+            dots: false,
             autoplay: true,
             autoplayTimeout: 5000,
             autoplayHoverPause: false,
